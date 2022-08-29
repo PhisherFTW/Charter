@@ -31,7 +31,7 @@
     <nav id="navbar">
         <ul class="navlist">
             <li class="navlistitem">
-                <a href="#home" class="nav-link active hover-underline-animation">Home</a>
+                <a href="#home" class="nav-link hover-underline-animation">Home</a>
             </li>
             <li class="navlistitem">
                 <a href="#images" class="nav-link hover-underline-animation">Images</a>
@@ -48,13 +48,47 @@
         </ul>
     </nav>
 
-    <section id="home" class="test"><a href="home"></a>
+    <section id="home"><a href="home"></a>
         <div>
             <h3>Deep sea fishing charters daily 365 day of the year.</h3>
         </div>
     </section>
 
-    <section id="images"><a href="images">images</a></section>
+    <section id="images"><a href="images">images</a>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1/10</div>
+                <img src="images/boatpicture3slideshow.jpeg" alt="" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2/10</div>
+                <img src="images/boatpicture3slideshow.jpeg" alt="" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3/10</div>
+                <img src="images/boatpicture3slideshow.jpeg" alt="" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4/10</div>
+                <img src="images/boatpicture3slideshow.jpeg" alt="" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5/10</div>
+                <img src="images/boatpicture3slideshow.jpeg" alt="" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>>
+
+          </div>
+    </section>
 
     <section id="information"><a href="information">Information</a></section>
 
